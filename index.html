@@ -43,28 +43,7 @@
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-		  <script>
-			fetch('about.html', {mode: 'no-cors'}).then(r=>{
-			  document.getElementsByClassName("nav-link")[1].style.visibility = "active";
-			})
-			.catch(e=>{
-			  document.getElementsByClassName("nav-link")[1].style.visibility = "hidden";
-			});
-			
-			fetch('bird.html', {mode: 'no-cors'}).then(r=>{
-			  document.getElementsByClassName("nav-link")[2].style.visibility = "active";
-			})
-			.catch(e=>{
-			  document.getElementsByClassName("nav-link")[2].style.visibility = "hidden";
-			});
-			fetch('contact.html', {mode: 'no-cors'}).then(r=>{
-			  document.getElementsByClassName("nav-link")[3].style.visibility = "active";
-			})
-			.catch(e=>{
-			  document.getElementsByClassName("nav-link")[3].style.visibility = "hidden";
-			});
-		  </script>
-				
+		  <script type="text/javascript" src="js/menu_validator.js"></script>	
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <div class="d-flex  flex-column flex-lg-row align-items-center">
               <ul class="navbar-nav  ">
